@@ -1,17 +1,20 @@
 import os
 from flask import Flask, request, redirect, url_for, send_from_directory, render_template
 from keras.preprocessing.image import ImageDataGenerator, load_img, img_to_array
-from keras.models import Sequential, load_model
+from keras.models import Sequential, load_model, model_from_json
 from werkzeug.utils import secure_filename
 import numpy as np
-
+import tensorflow as tf
 
 
 ALLOWED_EXTENSIONS = set(['jpg', 'jpeg', 'png'])
 IMAGE_SIZE = (75, 75)
 UPLOAD_FOLDER = 'uploads'
-vgg16 = load_model('model/new_model.h5')
+# converter = tf.lite.TFLiteConverter.from_keras_model('new_model.h5')
+# model = converter.convert()
 
+model = load_model('model/best_model.h5')
+model.load_weights('model/best_model_weights.h5')
 
 def allowed_file(filename):
     return '.' in filename and \
@@ -22,7 +25,7 @@ def predict(file):
     img  = load_img(file, target_size=IMAGE_SIZE)
     img = img_to_array(img)/255.0
     img = np.expand_dims(img, axis=0)
-    probs = vgg16.predict(img)[0]
+    probs = model.predict(img)[0]
     output = {'IDC(-):': probs[0], 'IDC(+)': probs[1]}
     return output
 
