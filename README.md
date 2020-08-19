@@ -23,7 +23,7 @@ We started by creating training, testing, and validations sets. Next, our team t
 ## The Front End
 The front end website for this project was created through Flask. The requirements needed to run this locally is in the requirements.txt file.
 Here's a little preview:
-[![Front End](doc/frontent_youtube.gif)](https://us02web.zoom.us/j/82251113607?pwd=am5RNDhXRGJGY3l2L24wUFdRVlJqZz09)
+[![Front End](doc/frontent_youtube.gif)](https://youtu.be/mMElOZ-xlEY)
 
 ## The Future 
 Though we were able to improve our F1 and our Accuracy score we did not achieve a high one. We will keep working to find the best parameters to tune our model. In addition to the Inception transfer model that was used on this project, we will use other transfer learning models. Lastly, we hope to fix the problem with most histology images of not being clear by using SRGAN and other techniques.
