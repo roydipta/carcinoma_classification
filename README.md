@@ -1,7 +1,9 @@
 # Carcinoma Classification
 Dipta Roy
 
+<p align="center">
 <img src= "https://j.gifs.com/r8D8D4.gif" width="450" height="450"/>
+</p>
 
 ## Project Overview
 Invasive Ductal Carcinoma is the most common form of breast cancer, and makes up 80% of the cases. Since it is invasive, the cancer can metastasize entering the blood vessels and traveling to other organs where it may proliferate. Early detectio of Ductal Carcinoma lead to a higher survival rate. The goal of this project is to create an accurate model that can classify Invasive Ductal Carcinoma in images of histopathology slides. While pathologists are the ones that classify IDC(-) or IDC(+) from images, their predictions can vary from one expert to the next. If we can create an accurate model, it can provide consistency in diagnosis.
