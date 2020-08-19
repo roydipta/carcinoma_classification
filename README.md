@@ -23,6 +23,7 @@ We started by creating training, testing, and validations sets. Next, our team t
 ## The Front End
 The front end website for this project was created through Flask. The requirements needed to run this locally is in the requirements.txt file.
 Here's a little preview:
+
 ![Front End](https://j.gifs.com/0YZYNL.gif)
 
 ## The Future 
