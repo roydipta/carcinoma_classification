@@ -25,6 +25,7 @@ We started by creating training, testing, and validations sets. Next, our team t
 
 <p align="left">
 <img src= "uploads/Picture1.png"/>
+<img src= "uploads/Picture2.png"/>
 </p>
 
 <p align="center">
