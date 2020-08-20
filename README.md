@@ -1,7 +1,7 @@
 # Carcinoma Classification
 
 <p align="center">
-<img src= "https://j.gifs.com/r8D8D4.gif" width="450" height="450"/>
+<img src= "https://j.gifs.com/mOxyYp.gif" width="450" height="450"/>
 </p>
 
 ## Project Overview
