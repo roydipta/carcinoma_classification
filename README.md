@@ -26,11 +26,9 @@ We started by creating training, testing, and validations sets. Next, our team t
 <p align="left">
 <img src= "uploads/Picture1.png"/>
 <img src= "uploads/Picture2.png"/>
+<img src= "uploads/Picture3.png"/>
 </p>
 
-<p align="center">
-<img src= "uploads/Picture2.png"/>
-</p>
 
 ## The Front End
 The front end website for this project was created through Flask. The requirements needed to run this locally is in the requirements.txt file.
