@@ -18,7 +18,7 @@ Invasive Ductal Carcinoma is the most common form of breast cancer, and makes up
 
 - Adjusted and tuned model for optimal results
 
-- Reviewed model results
+- Reviewed model results 
 
 ## The Model
 We started by creating training, testing, and validations sets. Next, our team tested a baseline CNN model and used both the accuracy and f1 metric to judge the abilities of our model. After reviewing the results of our model we searched for additional histology images and used data augmentation techniques to solve our class imbalance. Once we solved the issue of class imbalance, we went through the process of tuning our model until we found the best model. The results of our best model were 77% Accuracy and 78% F1-score. We then tried some model transfer learning techniques, and achieved our best Accuracy (85%) and F1 score (85%) with the Inception model. Our recall was fairly high with a 90% for IDC(-) and 72% for IDC(+). We are excited to say that we have seen progress from our baseline model and look forward to creating an even more robust model.
