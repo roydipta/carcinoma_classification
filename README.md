@@ -11,7 +11,7 @@ Invasive Ductal Carcinoma is the most common form of breast cancer, and makes up
 - Download data from Kaggle.         
 
 - Explore data
-
+ 
 - Run baseline model
 
 - Fixed class imbalance 
