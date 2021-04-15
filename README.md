@@ -5,7 +5,7 @@
 </p>
 
 ## Project Overview  
-Invasive Ductal Carcinoma is the most common form of breast cancer, and makes up 80% of the cases. Since it is invasive, the cancer can metastasize entering the blood vessels and traveling to other organs where it may proliferate. Early detection of Ductal Carcinoma lead to a higher survival rate. The goal of this project is to create an accurate model that can classify Invasive Ductal Carcinoma in images of histopathology slides. While pathologists are the ones that classify IDC(-) or IDC(+) from images, their predictions can vary from one expert to the next. If we can create an accurate model, it can provide consistency in diagnosis.
+Invasive Ductal Carcinoma is the most common form of breast cancer, and makes up 80% of the cases. Since it is invasive, the cancer can metastasize entering the blood vessels and traveling to other organs where it may proliferate. Early detection of Ductal Carcinoma leads to a higher survival rate. The goal of this project is to create an accurate model that can classify Invasive Ductal Carcinoma in images of histopathology slides. While pathologists are the ones that classify IDC(-) or IDC(+) from images, their predictions can vary from one expert to the next. If we can create an accurate model, it can provide consistency in diagnosis.
  
 ## The Approach
 - Download data from Kaggle.         
@@ -21,7 +21,7 @@ Invasive Ductal Carcinoma is the most common form of breast cancer, and makes up
 - Reviewed model results 
 
 ## The Model
-We started by creating training, testing, and validations sets. Next, our team tested a baseline CNN model and used both the accuracy and f1 metric to judge the abilities of our model. After reviewing the results of our model we searched for additional histology images and used data augmentation techniques to solve our class imbalance. Once we solved the issue of class imbalance, we went through the process of tuning our model until we found the best model. The results of our best model were 77% Accuracy and 78% F1-score. We then tried some model transfer learning techniques, and achieved our best Accuracy (85%) and F1 score (85%) with the Inception model. Our recall was fairly high with a 90% for IDC(-) and 72% for IDC(+). We are excited to say that we have seen progress from our baseline model and look forward to creating an even more robust model.
+We started by seperating training, testing, and validations sets. Next, our team tested a baseline CNN model and used both the accuracy and f1 metric to judge the abilities of our model. After reviewing the results of our model we searched for additional histology images and used data augmentation techniques to solve our class imbalance. Once we solved the issue of class imbalance, we went through the process of tuning our model until we found the best one. The results of our best model achieved an Accuracy score of 77% and a F1-score of 78%. We then tried some model transfer learning techniques, and achieved our best Accuracy (85%) and F1 score (85%) with the Inception model. Our recall was fairly high and attained a 90% for IDC(-) images and 72% for IDC(+) images. We are excited to say that we have seen progress from our baseline model and look forward to creating an even more robust model.
 
 <p align="left">
 <img src= "uploads/Picture1.png"/>
